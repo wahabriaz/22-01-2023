@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+}
+/* first section*/
+.div-section{
+    width: 40%;
+    float: left;
+    margin: 2%;
+    padding: 2%;
+}
+.div-section img{
+    width: 100%;
+}
+.highlight-name{
+    color: rgb(40, 69, 238);
+}
+.link{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #e44938,#b41604 );
+    padding: 10px 20px;
+    color: #ddd;
+    border-radius: 5px;
+    
+}
+.frist-section{
+    background-image: url(./images/developer-portfolio/top-banner.png);
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+/* second  section*/
+.second-section{
+    background-image: url(./images/developer-portfolio/dream-bg.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+/* third  section*/
+
+.orange-color{
+    color: rgb(255, 196, 2);
+}
+.shadaw{
+    box-shadow:10px 10px 30px gray;
+    height: 350px;
+    border-radius: 8px;
+    margin-left:  40px;
+    background: rgb(248, 245, 245);
+    text-align: justify;
+    
+}
+.third-section{
+    background-image: url(./images/developer-portfolio/exp-bg.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: left;
+    
+  
+}
+
+#full-stack{
+    border-left: 7px solid;
+    border-image:linear-gradient(rgb(248, 118, 95),rgb(245, 109, 85));
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image:linear-gradient(rgb(32, 105, 241), rgb(38, 240, 247));
+    border-image-slice: 1;
+}
+.p1{
+    margin-bottom:70px;
+    
+}
+
+.footer-text{
+    text-align: center;
+    opacity: 60%;
+    font-size: 12px;
+}
